@@ -1,5 +1,5 @@
 import React from "react"
-import Header from '../components/header'
+import Layout from '../components/Layout'
 
 import HomePage from '../components/Home/index.js'
 
@@ -7,12 +7,10 @@ import '../css/style.css'
 
 export default function Home() {
   return (
-    <div className="wrapper">
-      <Header />
-      
-      <div className="container">
+    <Layout>
+      <div className="wrapper">      
         <HomePage />
-      </div>
-    </div>
+      </div>      
+    </Layout>
   )
 }
