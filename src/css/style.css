@@ -18,10 +18,6 @@ body {
     font-weight: 300;
 }
 
-.wrapper {
-    margin: -2.5rem;
-}
-
 /* Botones */ 
 
 .btn{
@@ -45,6 +41,31 @@ body {
 /* Contenedor */
 .container{
     box-sizing: border-box;
-    padding: 2.5rem;
+    padding: 1.5rem;
     width: 100%;
+}
+.wrapper {
+    margin: -1.5rem;
+}
+
+/* CARDS */
+.card{
+    background: white;
+    border-radius: 0.78rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .title{
+    font-size: calc(1.25em + 1vw);
+    margin: 0;
+}
+.card .description{
+    color: var(--ligthblue);
+    font-style: oblique;
 }
