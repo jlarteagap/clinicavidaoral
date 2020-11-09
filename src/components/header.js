@@ -1,9 +1,13 @@
 import React from 'react'
+import Image from './images'
+import './Header/Header.css'
 
 export default function Header() {
     return(
-        <header>
-            Desde Header
+        <header className="header">
+            <div className="header__logo">
+                <Image name="logo"/>
+            </div>
         </header>
     )
 }

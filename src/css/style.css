@@ -18,6 +18,11 @@ body {
     font-weight: 300;
 }
 
+/* Main */
+.main{
+    display: flex;
+}
+
 /* Botones */ 
 
 .btn{
@@ -43,6 +48,7 @@ body {
     box-sizing: border-box;
     padding: 1.5rem;
     width: 100%;
+    margin-left: calc(20% + 4rem);
 }
 .wrapper {
     margin: -1.5rem;

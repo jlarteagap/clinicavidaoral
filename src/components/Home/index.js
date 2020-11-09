@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import './css/Home.css'
+
 export default function HomePage(){
     return(
         <Fragment>
