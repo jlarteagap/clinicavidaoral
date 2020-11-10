@@ -7,6 +7,9 @@
     --black: #4d4d4d;
     --gray: #7a7d7d;
 }
+a{
+    text-decoration: none;
+}
 
 body {
     background: #f4f4f4;
@@ -38,7 +41,7 @@ body {
 /* titulos */
 .title{
     color: var(--blue);
-    font-size: 2.3rem;
+    font-size: calc(2.3rem + 1vw);
     font-weight: 300;
     margin: 1.5rem 0 .25rem;
 }

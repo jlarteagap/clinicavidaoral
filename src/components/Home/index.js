@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React, { Fragment } from 'react'
 import './css/Home.css'
 
@@ -10,7 +11,7 @@ export default function HomePage(){
                     <h2 className="home--title">Cirugía Oral & Maxilofacial</h2>
                 
                 <p className="home--descriptions">Realizamos tratamientos de alta complejidad <span className="home--resalt">quirúrgica bucomaxilofacial y de reconstrucción ósea. </span><br />Actualmente miembros activos de la "ALACIBU"</p>
-                <button className="btn btn--primary">Conoce más de nosotros</button>
+                <Link to="/acerca-de-nosotros" className="btn btn--primary">Conoce más de nosotros</Link>
                 </div>
             </div>
 
@@ -41,7 +42,8 @@ export default function HomePage(){
                     Nos caracterizamos por tener un equipo de profesionales de primer nivel <br />
                     Siempre actualizados con los últimos procesos, técnicas modernas liderados por la Dra. Alina Peralta
                     </p>
-                    <button className="btn btn--primary">Conoce nuestro equipo</button>
+                    <Link to="/equipo" className="btn btn--primary">Conoce nuestro equipo</Link>
+                    
                 </div>
             </div>
             <div className="home home--centros">
@@ -51,8 +53,8 @@ export default function HomePage(){
                     <p className="home--descriptions">
                     Nuestros ambientes están diseñados de una manera agradable, natural y moderna, de manera que nuestros pacientes se sientan cómodos y relajados
                     </p>
-                    <button className="btn btn--primary">Santa Cruz</button>
-                    <button className="btn btn--primary">Cochabamba</button>
+                    <Link to="/contacto" className="btn btn--primary">Santa Cruz</Link>
+                    <Link to="/contacto" className="btn btn--primary">Cochabamba</Link>
                 </div>
             </div>
         </Fragment>
