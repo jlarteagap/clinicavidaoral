@@ -11,6 +11,55 @@ const Image = ({name}) => {
             ...GatsbyImageSharpFluid
           }
         }
+      }, 
+      alinaPeralta: file(relativePath: { eq: "alinaPeralta.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      carlosAcha: file(relativePath: { eq: "carlosAcha.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      davidLopez: file(relativePath: { eq: "davidLopez.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      javierCabrera: file(relativePath: { eq: "javierCabrera.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      julioVillaroel: file(relativePath: { eq: "julioVillaroel.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      luisPorcer: file(relativePath: { eq: "luisPorcer.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      paul: file(relativePath: { eq: "paul.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
       }
     }
   `)

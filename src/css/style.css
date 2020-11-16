@@ -49,12 +49,12 @@ body {
 /* Contenedor */
 .container{
     box-sizing: border-box;
-    padding: 1.5rem;
+    padding: 2rem;
     width: 100%;
     margin-left: calc(20% + 4rem);
 }
 .wrapper {
-    margin: -1.5rem;
+    margin: -2rem;
 }
 
 /* CARDS */
@@ -62,8 +62,8 @@ body {
     background: white;
     border-radius: 0.78rem;
     box-sizing: border-box;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
 }
 .card__header{
     display: flex;
@@ -76,5 +76,10 @@ body {
 }
 .card .description{
     color: var(--ligthblue);
+    padding: 0;
+    margin: .5rem 0 1rem;
     font-style: oblique;
+}
+.card__content{
+    display: flex;
 }

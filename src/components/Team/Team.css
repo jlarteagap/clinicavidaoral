@@ -1,0 +1,11 @@
+.team__profile{
+    padding-right: 2rem;
+    width: 25%;
+}
+    .team__profile img {
+        border-radius: .65rem;
+        object-fit: cover;
+    }
+.team__description{
+    width: 75%;
+}
