@@ -13,12 +13,17 @@
         height: auto;
     }
 
-.sidebar a{
+.sidebar__links{
     color: var(--black);
     font-size: 300;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.4s ease;
 }
+    .sidebar__links:hover{
+        color: var(--blue);
+        font-weight: 400;
+    }
 .sidebar ul {
     padding: 0;
     margin: 0;
@@ -30,4 +35,8 @@
 
 .sidebar__menu{
     margin: 3rem 0;
+}
+.sidebar__icons{
+    color: var(--ligthblue);
+    margin-right: 1rem;
 }

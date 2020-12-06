@@ -83,3 +83,7 @@ body {
 .card__content{
     display: flex;
 }
+
+.card__icons{
+    color: var(--ligthblue);
+}
