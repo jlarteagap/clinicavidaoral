@@ -1,0 +1,28 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+.contact__form{
+    width: 70%;
+    padding-right: 3rem;
+}
+.contact__sidebar {
+    width: 30%;
+}
+
+.contact input, .contact textarea{
+    display: block;
+    border: 1px #eee solid;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin: .25rem 0;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.contact textarea {
+    height: 8rem;
+}
+.contact label {
+    display: block;
+    margin-top: .5rem;
+}
